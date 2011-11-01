@@ -293,7 +293,6 @@ footer section.wrap article{
 	
 }
 
-
 footer section.wrap article h2 {
 	margin-bottom: 15px;
 	background: url(imgs/img10.gif) repeat-x left bottom;
@@ -324,4 +323,8 @@ footer section.legal {
 
 footer section.legal a {
 	color: #476B77;
+}
+
+.space1{
+	height: 40px;	
 }
