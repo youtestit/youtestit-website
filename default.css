@@ -184,6 +184,7 @@ section {
 .box1{
 	padding: 20px;
 	background: url(imgs/img05.gif) no-repeat;
+	margin-bottom: 15px;
 }
 
 article .title {
@@ -228,7 +229,16 @@ article .meta b {
 	display: none;
 }
 
+.post{
+	margin-bottom: 10px;
+	padding: 5px;
+}
 
+.post h1, .post h2, .post h3 {
+    background: url("imgs/img03.gif") repeat-x scroll left bottom transparent;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+}
 
 /*==============================================================================
 = CONTENT MENU
