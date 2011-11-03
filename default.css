@@ -234,7 +234,7 @@ article .meta b {
 	padding: 5px;
 }
 
-.post h1, .post h2, .post h3 {
+.post h1, .post h2 {
     background: url("imgs/img03.gif") repeat-x scroll left bottom transparent;
     margin-bottom: 20px;
     padding-bottom: 5px;
@@ -337,4 +337,15 @@ footer section.legal a {
 
 .space1{
 	height: 40px;	
+}
+
+/*==============================================================================
+= LOGOS
+==============================================================================*/
+.smileLogo{
+	background: url("imgs/sponsors/smile_logo.png") no-repeat scroll left bottom transparent;
+    color: transparent;
+    display: block;
+    height: 52px;
+    width: 141px;
 }
