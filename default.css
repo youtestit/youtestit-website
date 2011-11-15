@@ -94,7 +94,7 @@ input, textarea, select {
 /*==============================================================================
 = HEADER
 ==============================================================================*/
-header {
+header,.header {
 	width: 850px;
 	height: 82px;
 	margin: 0 auto 40px auto;
@@ -134,21 +134,21 @@ header {
 /*==============================================================================
 = HEADER MENU
 ==============================================================================*/
-header menu {
+header menu, .header .menu{
 	float: right;
 }
 
-header menu ul {
+header menu ul,.header .menu ul {
 	margin: 0;
 	padding: 15px 0 0 0;
 	list-style: none;
 }
 
-header menu li {
+header menu li, .header .menu li {
 	display: inline;
 }
 
-header menu a {
+header menu a ,.header .menu a{
 	display: block;
 	float: left;
 	margin-left: 30px;
@@ -158,11 +158,11 @@ header menu a {
 	color: #000000;
 }
 
-header menu a:hover {
+header menu a:hover, .header .menu a:hover {
 	text-decoration: underline;
 }
 
-header menu .active a {
+header menu .active a, .header .menu {
 	background: url(imgs/img02.gif) repeat-x left bottom;
 }
 
@@ -176,7 +176,7 @@ header menu .active a {
 	width: 575px;
 }
 
-section {
+section, .section {
 	width: 850px;
 	margin: 0 auto;
 }
@@ -187,45 +187,44 @@ section {
 	margin-bottom: 15px;
 }
 
-article .title {
+article .title, .article .title {
 	margin-bottom: 20px;
 	padding-bottom: 5px;
 	background: url(imgs/img03.gif) repeat-x left bottom;
 }
 
-article .entry {
-}
 
-article .meta {
+
+article .meta, .article .meta  {
 	padding: 15px 0 60px 0;
 	background: url(imgs/img03.gif) repeat-x;
 }
 
-article .meta p {
+article .meta p, .article .meta p {
 	margin: 0;
 	line-height: normal;
 	color: #999999;
 }
 
-article .meta .byline {
+article .meta .byline, .article .meta .byline {
 	float: left;
 }
 
-article .meta .links {
+article .meta .links, .article .meta .links {
 	float: right;
 }
 
-article .meta .more {
+article .meta .more, .article .meta .more {
 	padding: 0 20px 0 18px;
 	background: url(imgs/img06.gif) no-repeat left center;
 }
 
-article .meta .comments {
+article .meta .comments, .article .meta .comments {
 	padding-left: 22px;
 	background: url(imgs/img07.gif) no-repeat left center;
 }
 
-article .meta b {
+article .meta b, .article .meta b {
 	display: none;
 }
 
@@ -244,29 +243,29 @@ article .meta b {
 = CONTENT MENU
 ==============================================================================*/
 
-section menu {
+section menu, .section .menu {
 	float: right;
 	width: 195px;
 }
 
-section menu ul {
+section menu ul, .section .menu ul {
 	margin: 0;
 	padding: 0;
 	list-style: none;
 }
 
-section menu li {
+section menu li, .section .menu li {
 	margin-bottom: 40px;
 }
 
-section menu li ul {
+section menu li ul, .section .menu li ul {
 }
 
-section menu li li {
+section menu li li, .section .menu li li {
 	margin: 0;
 }
 
-section menu h2 {
+section menu h2 , .section .menu h2{
 	margin-bottom: 10px;
 	background: url(imgs/img03.gif) repeat-x left bottom;
 	font-size: 16px;
@@ -278,24 +277,24 @@ section menu h2 {
 = FOOTER
 ==============================================================================*/
 
-footer {
+footer, .footer {
 	min-height: 170px;
 	padding: 130px 0 0 0;
 	background: #003448 url(imgs/img09.gif) repeat-x;
 }
 
 
-footer section.wrap {
+footer section.wrap, .footer .section.wrap {
 	width: 850px;
 	margin: 0 auto;
 }
 
-footer section.wrap div{
+footer section.wrap div, .footer .section .wrap div{
 	margin: auto;
     width: 600px;	
 }
 
-footer section.wrap article{
+footer section.wrap article, .footer .section .wrap .article{
 	float: left;
 	width: 200px;
 	padding-left: 70px;
@@ -303,14 +302,14 @@ footer section.wrap article{
 	
 }
 
-footer section.wrap article h2 {
+footer section.wrap article h2 , .footer .section .wrap .article h2{
 	margin-bottom: 15px;
 	background: url(imgs/img10.gif) repeat-x left bottom;
 	font-size: 16px;
 	color: #FFFFFF;
 }
 
-footer section.wrap article ul {
+footer section.wrap article ul, .footer .section .wrap .article ul {
 	margin: 0;
 	padding: 0;
 	list-style: none;
@@ -319,19 +318,23 @@ footer section.wrap article ul {
 footer section.wrap article a:link,
 footer section.wrap article  a:hover,
 footer section.wrap article  a:active,
-footer section.wrap article  a:visited  {
+footer section.wrap article  a:visited,
+.footer .section.wrap .article a:link,
+.footer .section.wrap .article  a:hover,
+.footer .section.wrap .article  a:active,
+.footer .section.wrap .article  a:visited  {
 	color: #EDEDED;
 }
 
 
-footer section.legal {
+footer section.legal, .footer .section.legal {
 	clear: both;
 	padding-top: 20px;
 	text-align: center;
 	color: #375C69;
 }
 
-footer section.legal a {
+footer section.legal a, .footer .section.legal a {
 	color: #476B77;
 }
 
