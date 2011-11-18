@@ -186,6 +186,10 @@ section, .section {
 	background: url(imgs/img05.gif) no-repeat;
 	margin-bottom: 15px;
 }
+.box{
+	padding: 20px;
+	margin-bottom: 15px;
+}
 
 article .title, .article .title {
 	margin-bottom: 20px;
