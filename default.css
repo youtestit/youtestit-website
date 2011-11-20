@@ -354,3 +354,6 @@ footer section.legal a {
     height: 52px;
     width: 141px;
 }
+.smileLogo span{
+	display:none;
+}
