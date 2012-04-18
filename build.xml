@@ -1,0 +1,36 @@
+<project name="youtestit-website" default="deploy" basedir=".">
+
+	<!--========================================================================
+    =                              PROPERTIES
+    =========================================================================-->
+	<property name="build.properties" value="build.properties" />
+	<property name="war.name" value="youtestit-website.war" />
+	<import file="antmacros.common.xml" />
+
+	<!--========================================================================
+    =                              TARGETS
+    =========================================================================-->
+
+	<target name="deploy" depends="install, deploy-only"/>
+	
+	<target name="deploy-only">
+		<echo> deploy ${basedir}/target/${war.name}</echo>
+		<delete dir="${deploy.dir}/${war.name}" verbose="true" />
+		<mkdir dir="${deploy.dir}/${war.name}"/>
+		
+				
+		<unzip	src="${basedir}/target/${war.name}"
+				dest="${deploy.dir}/${war.name}"
+				overwrite="true"/>
+	</target>
+
+	<target name="web">
+		<copy todir="${deploy.dir}/youtestit-website.war/" >
+			<fileset dir="${basedir}/src/main/webapp" />
+		</copy>
+	</target>
+	
+	<target name="install_and_deploy" depends="install-quick,deploy"/>
+			
+
+</project>

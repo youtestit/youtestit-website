@@ -1,0 +1,369 @@
+
+/*
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
+*/
+
+
+/*==============================================================================
+= GENERIC
+==============================================================================*/
+header, footer,section,aside,nav,article,figure,menu{
+	display:block;
+}
+
+body {
+	margin: 100px 0 0 0;
+	padding: 0;
+	background: #FFFFFF url(../imgs/img01.gif) repeat-x;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #333333;
+}
+
+h1, h2, h3 {
+	margin: 0;
+	font-weight: normal;
+	color: #3E3E3E;
+}
+
+h1 {
+	font-size: 32px;
+}
+
+h2 {
+	font-size: 23px;
+}
+
+p, ul, ol {
+	margin: 0 0 2em 0;
+	text-align: justify;
+	line-height: 26px;
+	font-size: 11px;
+}
+
+a:link {
+	color: #7BAA0F;
+}
+
+a:hover, a:active {
+	text-decoration: none;
+	color: #003448;
+}
+
+a:visited {
+	color: #333333;
+}
+
+img {
+	border: none;
+}
+
+img.left {
+	float: left;
+	margin-right: 15px;
+}
+
+img.right {
+	float: right;
+	margin-left: 15px;
+}
+
+/* Form */
+
+form {
+	margin: 0;
+	padding: 0;
+}
+
+fieldset {
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+legend {
+	display: none;
+}
+
+input, textarea, select {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #333333;
+}
+
+
+
+/*==============================================================================
+= HEADER
+==============================================================================*/
+header {
+	width: 850px;
+	height: 82px;
+	margin: 0 auto 40px auto;
+	background: url(../imgs/img03.gif) repeat-x left bottom;
+}
+
+#logo {
+	float: left;
+}
+
+#logo h1 {
+	font-size: 38px;
+	color: #494949;
+}
+
+#logo h1 sup {
+	vertical-align: text-top;
+	font-size: 24px;
+}
+
+#logo h1 a {
+	color: #494949;
+}
+
+#logo h2 {
+	margin-top: -10px;
+	font-size: 12px;
+	color: #A0A0A0;
+}
+
+#logo a {
+	text-decoration: none;
+}
+
+
+
+/*==============================================================================
+= HEADER MENU
+==============================================================================*/
+header menu{
+	float: right;
+	margin-left: -5px;
+}
+
+header menu ul{
+	margin: 0;
+	padding: 15px 0 0 0;
+	list-style: none;
+}
+
+header menu li{
+	display: inline;
+}
+
+header menu a{
+	display: block;
+	float: left;
+	margin-left: 30px;
+	padding: 7px;
+	text-decoration: none;
+	font-size: 13px;
+	color: #000000;
+}
+
+header menu a:hover{
+	text-decoration: underline;
+}
+
+header menu .active a{
+	background: url(../imgs/img02.gif) repeat-x left bottom;
+}
+
+
+
+/*==============================================================================
+= CONTENT
+==============================================================================*/
+#content {
+	float: left;
+	width: 575px;
+}
+
+section {
+	width: 850px;
+	margin: 0 auto;
+}
+
+.box1{
+	padding: 20px;
+	background: url(../imgs/img05.gif) no-repeat;
+	margin-bottom: 15px;
+}
+.box{
+	padding: 20px;
+	margin-bottom: 15px;
+}
+
+article .title {
+	margin-bottom: 20px;
+	padding-bottom: 5px;
+	background: url(../imgs/img03.gif) repeat-x left bottom;
+}
+
+
+
+article .meta {
+	padding: 15px 0 60px 0;
+	background: url(../imgs/img03.gif) repeat-x;
+}
+
+article .meta p {
+	margin: 0;
+	line-height: normal;
+	color: #999999;
+}
+
+article .meta .byline{
+	float: left;
+}
+
+article .meta .links {
+	float: right;
+}
+
+article .meta .more {
+	padding: 0 20px 0 18px;
+	background: url(../imgs/img06.gif) no-repeat left center;
+}
+
+article .meta .comments {
+	padding-left: 22px;
+	background: url(../imgs/img07.gif) no-repeat left center;
+}
+
+article .meta b{
+	display: none;
+}
+
+.post{
+	margin-bottom: 10px;
+	padding: 5px;
+}
+
+.post h1, .post h2 {
+    background: url("../imgs/img03.gif") repeat-x scroll left bottom transparent;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+}
+
+/*==============================================================================
+= CONTENT MENU
+==============================================================================*/
+
+section menu{
+	float: right;
+	width: 195px;
+}
+
+section menu ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+section menu li{
+	margin-bottom: 40px;
+}
+
+
+section menu li li{
+	margin: 0;
+}
+
+section menu h2{
+	margin-bottom: 10px;
+	background: url(../imgs/img03.gif) repeat-x left bottom;
+	font-size: 16px;
+}
+
+
+
+/*==============================================================================
+= FOOTER
+==============================================================================*/
+
+footer{
+	min-height: 170px;
+	padding: 130px 0 0 0;
+	background: #003448 url(../imgs/img09.gif) repeat-x;
+}
+
+
+footer section.wrap{
+	width: 850px;
+	margin: 0 auto;
+}
+
+footer section.wrap div{
+	margin: auto;
+    width: 600px;	
+}
+
+footer section.wrap article{
+	float: left;
+	width: 200px;
+	padding-left: 70px;
+	color: #BABABA;
+	
+}
+
+footer section.wrap article h2{
+	margin-bottom: 15px;
+	background: url(../imgs/img10.gif) repeat-x left bottom;
+	font-size: 16px;
+	color: #FFFFFF;
+}
+
+footer section.wrap article ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+footer section.wrap article a:link,
+footer section.wrap article  a:hover,
+footer section.wrap article  a:active,
+footer section.wrap article  a:visited {
+	color: #EDEDED;
+}
+
+
+footer section.legal{
+	clear: both;
+	padding-top: 20px;
+	text-align: center;
+	color: #375C69;
+}
+
+footer section.legal a {
+	color: #476B77;
+}
+
+.space1{
+	height: 40px;	
+}
+
+.screenshot li{
+	list-style: none;
+	float: left;
+	margin : 6px;
+}
+
+.clear{
+	clear: both;
+}
+/*==============================================================================
+= LOGOS
+==============================================================================*/
+.smileLogo{
+	background: url("../imgs/sponsors/smile_logo.png") no-repeat scroll left bottom transparent;
+    color: transparent;
+    display: block;
+    height: 52px;
+    width: 141px;
+}
+.smileLogo span{
+	display:none;
+}
